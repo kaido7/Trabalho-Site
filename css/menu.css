@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.conteiner-img img{
+    width: 100%;
+    height: 160px;
+}
+
+.conteiner-card{
+    margin: 10px;
+    border: 1px solid rgb(190, 182, 173);
+    padding: 1px 1px ;
+    height: 350px;
+    box-shadow: 2px 1px 3px 0;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.information button{
+    background-color: #f5d0fe;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.information button:hover{
+    background-color: #7e22ce;
+}
+
+
+.button-todos a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #faf5ff;
+}
+
+.todos-btt a,
+.todos-btt button{
+    background-color: #faf5ff;
+    border: 1px solid black;
+}
+
+.todos-btt a:hover,
+.todos-btt button:hover{
+    background-color: #7e22ce;
+}
+
+.button-todos{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.conteiner-mensgens{
+    background-color:#faf5ff;
+    padding: 10px;
+}
+
+
+.mostra-mais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.button-mais{
+    margin: 10px;
+    background-color:azure;
+    font-size: 17px;
+    padding: 5px 16px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+
+.linha{
+    border: 1px solid;
+    width: 100%;
+    margin: 10px 0 15px 0;
+}
+
+
+footer{
+    
+    padding:10px;
+    background-color: #faf5ff;
+}

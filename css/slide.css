@@ -1,0 +1,33 @@
+.carrosel{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    outline: 3px solid black;
+    margin-top: 30px;
+}
+
+.carrosel ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 400px;
+}
+
+.carrosel li{
+    position: relative;
+    animation: slide 20s infinite ease-out;
+}
+
+.carrosel li img{
+    width: 400px;
+    height: 100%;
+}
+
+@keyframes slide {
+    0% {left: 0px;}
+    20% {left: 0px;}
+    30% {left: -420px;}
+    60% {left: -400px;}
+    90% {left: -800px;}
+    100% {left: 0px;}
+}
