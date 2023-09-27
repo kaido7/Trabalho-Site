@@ -15,19 +15,21 @@
 
 .carrosel li{
     position: relative;
-    animation: slide 20s infinite ease-out;
+    animation: slide 5s infinite;
 }
 
-.carrosel li img{
-    width: 400px;
+.carrosel li img,
+#um,
+#dois,
+#tres{
+    width: 450px;
     height: 100%;
 }
 
 @keyframes slide {
     0% {left: 0px;}
     20% {left: 0px;}
-    30% {left: -420px;}
-    60% {left: -400px;}
-    90% {left: -800px;}
+    30% {left: -450px;}
+    90% {left: -930px;}
     100% {left: 0px;}
 }
