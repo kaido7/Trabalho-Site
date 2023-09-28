@@ -1,3 +1,5 @@
+// Função Header Menu
+
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(event) {
@@ -18,21 +20,37 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 
 
 
-// 
+// click
 
-// const box = document.querySelector(".conteiner-carrosel");
-// const imagens = document.querySelectorAll(".conteiner-carrosel ul a");
+const buttons = document.querySelector('.button-todos');
+const buttonsSkincare = document.querySelector('.skin');
 
-// let contador = 0;
 
-// function slider() {
-//   contador++;
+buttons.addEventListener('click', (event) => {
+  event.preventDefault();
+  console.log(event)
+})
 
-//   if (contador > imagens.length - 1) {
-//     contador = 0;
-//   }
 
-//   box.style.transform = `translateX(${-contador * 100}%)`;
+buttonsSkincare.addEventListener('click', (event) => {
+  event.preventDefault();
+  console.log(event)
+})
+
+
+const todos_pt = document.getElementById('todos-pt');
+const skinFalt = document.getElementById('skinFalt');
+const navMenu = document.querySelector('#nav');
+
+todos_pt.addEventListener('click', () => {
+  navMenu.classList.remove('active')
+})
+
+skinFalt.addEventListener('click', () => {
+  navMenu.classList.remove('active')
+})
+
+
+// function todos() {
+//   if(todos_pt)
 // }
-
-// setInterval(slider, 2000);
