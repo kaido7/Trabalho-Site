@@ -2,8 +2,9 @@
     width: 100%;
     height: 400px;
     overflow: hidden;
-    outline: 3px solid black;
+    outline: 2px solid black;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .carrosel ul{
@@ -15,21 +16,43 @@
 
 .carrosel li{
     position: relative;
-    animation: slide 5s infinite;
+    animation: slide 25s infinite;
 }
 
 .carrosel li img,
 #um,
 #dois,
 #tres{
-    width: 450px;
+    width: 420px;
     height: 100%;
 }
 
 @keyframes slide {
     0% {left: 0px;}
     20% {left: 0px;}
-    30% {left: -450px;}
-    90% {left: -930px;}
+    30% {left: -420px;}
+    50% {left:-420px;}
+    70% {left:-840px;}
+    90% {left: -840px;}
     100% {left: 0px;}
+}
+
+@media (max-width:370px){
+    .carrosel li img,
+    #um,
+    #dois,
+    #tres{
+    width: 370px;
+    height: 100%;
+    }
+
+    @keyframes slide {
+        0% {left: 0px;}
+        20% {left: 0px;}
+        30% {left: -370px;}
+        50% {left:-370px;}
+        70% {left:-740px;}
+        90% {left: -740px;}
+        100% {left: 0px;}
+    }
 }

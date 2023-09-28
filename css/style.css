@@ -132,3 +132,8 @@ a:hover {
     background-color: #f5d0fe;
     font-size: 1.4rem;
 }
+
+#img-logo img{
+  width: 60px;
+  height: 60px;
+}
