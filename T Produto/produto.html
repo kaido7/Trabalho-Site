@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mimos e algo mais</title>
+
+  <link rel="stylesheet" href="css/slide-prod.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href="/index.html">
+            Mimos e Algo Mais</a>
+        <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+            <li><a id="todos-pt" href="#todos-produtos">TODOS OS PRODUTOS</a></li>
+            <li><a href="#acessorios">ACESSÓRIOS</a></li>
+            <li><a href="#labios">LÁBIOS</a></li>
+            <li><a href="#face">FACE</a></li>
+            <li><a href="#olhos">OLHOS</a></li>
+            <li><a id="skinFalt" href="#skincare">SKINCARE</a></li>
+            <li><a href="#kits">KITS</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <!-- Botton pesquisa -->
+    <form class="pesquisa">
+        <input type="text" placeholder="Pesquisar">
+        <button class="btt-pesquise" type="submit">
+            <ion-icon name="search-outline"></ion-icon>
+        </button>
+    </form>
+
+    <!-- Imagen Produto -->
+
+    <div class="product-pai">
+        <div class="product-1">
+            <div class="slider">
+
+                <div class="buttons">
+                    <a class="voltar">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </a>
+                    <a class="frente">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </a>
+                </div>
+
+                <div class="list">
+                    <div class="item">
+                        <img src="/img/Makeup/04.png">
+                    </div>
+
+                    <div class="item">
+                        <img src="/img/Makeup/10.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="info-product">
+            <div class="paragrafo-prod">
+                <h3>SHISEIDO</h3>
+                <p>BATOM SHISEIDO TECHNOSATIN GEL LIPSTICK</p>
+            </div>
+            <div class="valor-product">
+                <h1>R$ 209,99</h1>
+                <h3>ou 10x de R$ 20,90</>
+            </div>
+
+
+
+            <div class="quantidade">
+                <div class="par-quantidade">
+                    <p id="para">Quantidade de produtos:</p>
+                </div>
+                <div class="soma">
+                    <button class="negativo">
+                        <ion-icon name="remove-outline"></ion-icon>
+                    </button>
+
+                    <input id="input-quantia" type="number" placeholder="0"></input>
+
+                    <button class="positivo">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Imagen Produto FIM -->
+    
+    
+    
+    
+    
+    
+    <footer>
+        <div class="container-footer">
+            <div class="informacoes-loja">
+                <h3>Sobre a loja</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta harum sapiente id a illum voluptatem atque, suscipit enim, explicabo necessitatibus ipsam! Sequi quam mollitia incidunt hic in exercitationem commodi eius!</p>
+            </div>
+        </div>
+
+        <div class="pague-com"></div>
+        <div class="selos"></div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/header-menu.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

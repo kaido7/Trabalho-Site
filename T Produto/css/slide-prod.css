@@ -1,0 +1,130 @@
+/* product-pai
+product-1
+slider
+list
+item
+ */
+
+
+.slider{
+    z-index: 8;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+}
+
+.slider_keyframes_1{
+    left: 0px;
+}
+
+.slider_keyframes_2{
+    left: -430px;
+}
+
+
+.item img{
+    width: 430px;
+    height: 400px;
+}
+
+
+.buttons{
+    z-index: 20;
+    width: 100%;
+    gap: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.buttons .frente,
+.voltar{
+    list-style: none;
+    padding: 3px;
+    font-size: 27px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    background-color:yellow;
+}
+
+
+
+
+
+
+
+/* descrição */
+
+
+.paragrafo-prod h3, p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.paragrafo-prod p{
+    margin-bottom: 20px;
+}
+
+.valor-product h1, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.par-quantidade #para{
+    margin-top: 20px;
+}
+
+.par-quantidade p, .negativo, .positivo{
+    margin: 0;
+    padding: 0;
+}
+
+.valor-product{
+    font-size: 14px;
+}
+
+.positivo{
+    margin-bottom: 20px;
+}
+
+#input-quantia{
+    width: 20px;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.positivo{
+    width: 30px;
+    height: 25px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 9px;
+}
+
+.negativo{
+    width: 30px;
+    height: 25px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.soma{
+    margin-left: 20px;
+}
+
