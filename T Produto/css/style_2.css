@@ -1,0 +1,46 @@
+
+
+.button-todos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid ;
+    width: 93%;
+    background-color: #f5d0fe;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.information a:hover{
+    background-color: #7e22ce;
+}
+
+
+.button-todos a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #faf5ff;
+}
+
+.todos-btt a,
+.todos-btt button{
+    background-color: #faf5ff;
+    border: 1px solid black;
+}
+
+.todos-btt a:hover,
+.todos-btt button:hover{
+    background-color: #7e22ce;
+}
+
+.informacao-prod{
+    background-color: #faf5ff;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.informacao-prod p{
+    font-size: 14px;
+}
